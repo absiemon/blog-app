@@ -95,7 +95,7 @@ npm run dev
 
 - **Get a demo at below url to get the last booking detail.**
 ```bash
-
+https://blog-app-client-rjyc.onrender.com
 ```
 
 ## Contributing
