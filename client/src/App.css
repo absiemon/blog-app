@@ -139,11 +139,13 @@ input[type=text]::placeholder {
   color: #a7abb5 !important;
 }
 
+
 /* Mui List */
 .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
   font-family: 'Poppins', sans-serif !important;
   font-size: 16px !important;
 }
+
 
 .css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
   color: white !important;
@@ -166,10 +168,14 @@ input[type=text]::placeholder {
 
 
 /* Production MUI CSS OVERRIDE */
-.css-2bxn45 {
+.css-2bxn45, .css-17gq4vl{
   background-color: #161D2F !important;
   width: 100% !important;
   height: 30px !important
+}
+.css-17gq4vl{
+  background-color: #161D2F !important;
+  width: 100% !important;
 }
 
 .css-14x1nlk {
@@ -257,4 +263,19 @@ input[type=text]::placeholder {
 .css-16y9h98 {
   color: white !important;
   font-size: 20px !important;
+}
+.css-1636szt{
+  color: #a7abb5 !important;
+}
+
+/* Mui Paper */
+.css-1636szt{
+  background-color: #161D2F !important;
+  color: #a7abb5 !important;
+}
+
+/* Mui List */
+.css-1km1ehz {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 16px !important;
 }
