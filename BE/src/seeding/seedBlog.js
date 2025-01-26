@@ -1,5 +1,5 @@
 import Blog from '../schema/blog.js';
-import blogs from '../assets/seedData/blogs.json' assert { type: 'json' };
+import blogs from '../assets/seedData/blogs.json' with { type: 'json' };
 
 /**
  * Seed blogs into the database if the collection is empty.

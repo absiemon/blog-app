@@ -1,5 +1,5 @@
 import Category from '../schema/category.js';
-import categories from '../assets/seedData/category.json' assert { type: 'json' };
+import categories from '../assets/seedData/category.json' with { type: 'json' };
 
 /**
  * Seed categories into the database if the collection is empty.
