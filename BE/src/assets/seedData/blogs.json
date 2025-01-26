@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Introduction to Node.js",
+        "content": "Node.js is a powerful JavaScript runtime...",
+        "category": "64f1a2b3c4d5e6f7a8b9c0d1",
+        "author": "64f1a2b3c4d5e6f7a8b9c0d2",
+        "status": "ACTIVE"
+    },
+    {
+        "title": "Healthy Eating Habits",
+        "content": "Maintaining a healthy diet is essential...",
+        "category": "64f1a2b3c4d5e6f7a8b9c0d3",
+        "author": "64f1a2b3c4d5e6f7a8b9c0d4",
+        "status": "ACTIVE"
+    }
+]

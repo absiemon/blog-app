@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Technology",
+        "description": "Articles related to the latest in technology, including software, hardware, and innovations."
+    },
+    {
+        "name": "Health",
+        "description": "Articles related to health, wellness, fitness, and medical advancements."
+    },
+    {
+        "name": "Travel",
+        "description": "Articles related to travel destinations, tips, and adventure experiences."
+    },
+    {
+        "name": "Food",
+        "description": "Articles related to recipes, cooking techniques, and food culture."
+    },
+    {
+        "name": "Fashion",
+        "description": "Articles related to fashion trends, style tips, and industry news."
+    },
+    {
+        "name": "Education",
+        "description": "Articles related to learning, teaching, and educational resources."
+    },
+    {
+        "name": "Business",
+        "description": "Articles related to entrepreneurship, startups, and business strategies."
+    },
+    {
+        "name": "Finance",
+        "description": "Articles related to personal finance, investing, and economic trends."
+    },
+    {
+        "name": "Sports",
+        "description": "Articles related to sports news, events, and athlete profiles."
+    },
+    {
+        "name": "Entertainment",
+        "description": "Articles related to movies, music, TV shows, and celebrity news."
+    },
+    {
+        "name": "Science",
+        "description": "Articles related to scientific discoveries, research, and innovations."
+    },
+    {
+        "name": "Environment",
+        "description": "Articles related to climate change, sustainability, and environmental issues."
+    },
+    {
+        "name": "Art",
+        "description": "Articles related to visual arts, photography, and creative expression."
+    },
+    {
+        "name": "Literature",
+        "description": "Articles related to books, authors, and literary analysis."
+    },
+    {
+        "name": "History",
+        "description": "Articles related to historical events, figures, and cultural heritage."
+    },
+    {
+        "name": "Politics",
+        "description": "Articles related to government, policies, and political analysis."
+    },
+    {
+        "name": "Lifestyle",
+        "description": "Articles related to daily life, hobbies, and personal development."
+    },
+    {
+        "name": "Gaming",
+        "description": "Articles related to video games, esports, and gaming culture."
+    }
+]

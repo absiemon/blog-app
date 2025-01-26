@@ -1,0 +1,18 @@
+.videCard-container:hover .play-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.videCard-container:hover img{
+    opacity: 0.7 !important;
+}
+
+section {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  section::-webkit-scrollbar {
+    display: none; /* WebKit (Chrome, Safari) */
+  }

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Nunito:wght@300&family=Poppins:wght@300&display=swap');
+
+:root {
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #10141E !important;
+  color: #FFFFFF;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  height: 50px;
+  background-color: #161D2F;
+  display: inline-block;
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type=text]::placeholder {
+  color: #5A698F;
+  font-size: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #10141E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5A698F;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #555;
+}
+
+
+
+/* MUI CSS OVERRIDE */
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root,
+.css-qgnjm4-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root {
+  background-color: #161D2F !important;
+  width: 100% !important;
+}
+
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root,
+.css-qgnjm4-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root {
+  color: #5A698F !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 13px !important;
+}
+
+.css-batk84-MuiInputBase-root-MuiFilledInput-root,
+.css-qgnjm4-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root {
+  border-bottom: 1px solid #5A698F !important;
+}
+
+.css-batk84-MuiInputBase-root-MuiFilledInput-root::after {
+  border-bottom: 0px solid #5A698F !important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #5A698F !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 11px !important;
+}
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input {
+  color: #FFFFFF !important;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #161D2F !important;
+  height: 30px !important;
+}
+
+.css-o943dk-MuiFormLabel-root-MuiInputLabel-root {
+  color: #5A698F !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+.css-1tw7cpj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root {
+  background-color: #FC4747 !important;
+  color: #FFFFFF !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 14px !important;
+  width: 95%;
+  text-transform: none !important;
+  margin-top: 40px ;
+  margin-bottom: 30px ;
+  height: 50px !important;
+  margin-left: 10px !important;
+}
+
+.css-pkvtmb-MuiLoadingButton-loadingIndicator {
+  position: relative !important;
+}
+
+.css-1tw7cpj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root:hover {
+  background-color: #FFFFFF !important;
+  color: black !important;
+}
+
+.css-1tw7cpj-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled {
+  background-color: #5A698F !important;
+}
+
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root {
+  font-size: 20px !important;
+  padding: 24px 20px !important;
+  border-radius: 200px !important;
+  color: white !important;
+  border: 1px solid #5A698F !important;
+}
+
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root:hover {
+  background-color: #161D2F !important;
+}
+
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #161D2F !important;
+}
+
+.css-1v2lvtn-MuiPaginationItem-root {
+  color: white !important;
+  font-size: 20px !important;
+}
+
+/* Mui Paper */
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background-color: #161D2F !important;
+  color: #a7abb5 !important;
+}
+
+/* Mui List */
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: #a7abb5 !important;
+}
+
+
+@media screen and (max-width:700px) {
+  .css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root {
+    font-size: 12px !important;
+    padding: 18px 15px !important;
+    border-radius: 200px !important;
+  }
+}
+
+
+
+/* Production MUI CSS OVERRIDE */
+.css-2bxn45 {
+  background-color: #161D2F !important;
+  width: 100% !important;
+  height: 30px !important
+}
+
+.css-14x1nlk {
+  color: #5A698F !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 13px !important;
+}
+
+
+.css-e2jmdx {
+  color: #FFFFFF !important;
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #161D2F !important;
+  border-bottom: 1px solid #5A698F !important;
+}
+
+.css-e2jmdx.Mui-focused .css-e2jmdx:hover {
+  border-bottom: 0px solid #5A698F !important;
+}
+
+.css-e2jmdx::after {
+  border-bottom: 0px solid #5A698F !important;
+}
+
+.css-1rgmeur.Mui-focused {
+  color: #5A698F !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 11px !important;
+}
+
+.css-1rgmeur {
+  font-family: 'Poppins', sans-serif !important;
+  color: #5A698F !important;
+}
+
+.css-1wrxw3e {
+  background-color: #FC4747 !important;
+  color: #FFFFFF !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 14px !important;
+  width: 95%;
+  text-transform: none !important;
+  margin-top: 40px !important;
+  margin-bottom: 30px !important;
+  height: 50px !important;
+  margin-left: 10px !important;
+}
+
+.css-1wrxw3e:hover {
+  background-color: #FFFFFF !important;
+  color: black !important;
+}
+
+.css-1wrxw3e:focus {
+  background-color: #FFFFFF !important;
+  color: black !important;
+}
+
+.css-1b7s7iz {
+  position: relative !important;
+}
+
+.css-1gz1y6s {
+  background-color: #161D2F !important;
+  color: #FFFFFF !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.css-f4jy6p {
+  font-size: 20px !important;
+  padding: 24px 20px !important;
+  border-radius: 200px !important;
+  color: white !important;
+  border: 1px solid #5A698F !important;
+}
+
+.css-f4jy6p:hover {
+  background-color: #161D2F !important;
+}
+
+.css-f4jy6p.Mui-selected {
+  background-color: #161D2F !important;
+}
+
+.css-16y9h98 {
+  color: white !important;
+  font-size: 20px !important;
+}
