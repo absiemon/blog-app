@@ -5,7 +5,7 @@ import path from 'path';
 const __dirname = path.resolve();
 
 // PRODUCTION CONFIGS
-export const PROD_CORS_ALLOWED_ORIGIN = ['']
+export const PROD_CORS_ALLOWED_ORIGIN = ['https://blog-app-client-rjyc.onrender.com', 'https://blog-app-client-rjyc.onrender.com/']
 export const AWS_BUCKET_NAME = process.env.AWS_BUCKET_NAME || ''
 export const PROD_COOKIE_DOMAIN = process.env.PROD_COOKIE_DOMAIN || ''
 
